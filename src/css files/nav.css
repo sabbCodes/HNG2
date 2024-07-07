@@ -1,0 +1,69 @@
+.navWrapper {
+  border-bottom: 1px solid #000;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 1440px;
+  margin: auto;
+  padding: 0 80px;
+}
+
+nav ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 16px;
+  width: 300px;
+}
+
+.acitveTab {
+  color: #BA5624;
+  font-weight: 700;
+}
+
+.navRight {
+  width: 378px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navRight input {
+  width: 230px;
+  height: 35px;
+  border: 1px solid #BA5624;
+  border-radius: 10px;
+  opacity: 40%;
+  padding: 0 8px 0 34px;
+}
+
+.navRightSearchBox {
+  position: relative;
+}
+
+.navRightSearchBox img {
+  position: absolute;
+  left: 12px;
+  top: 10px;
+}
+
+.cartDiv {
+  width: 86px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.cartDiv p {
+  columns: #171A1F;
+}
+
+.cartDiv p span {
+  font-weight: 700;
+  columns: #171A1F;
+}

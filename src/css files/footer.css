@@ -1,0 +1,117 @@
+footer {
+    background-color: #1C1C1C;
+    color: #DEE1E6;
+    height: 434px;
+    margin: auto 0 0;
+    padding: 0;
+}
+
+.footerInner {
+    display: flex;
+    justify-content: space-between;
+    width: 1440px;
+    margin: 0 auto;
+    padding: 96px 80px 0 98px;
+}
+
+.footerInnerLeft {
+    display: flex;
+    gap: 86px;
+}
+
+.footerInnerLeft h4 {
+    font-size: 20px;
+    font-weight: 700;
+    margin: 0 0 24px;
+}
+
+.footerInnerLeft ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.boldFooter {
+    font-weight: 700;
+    font-size: 14px;
+}
+
+.footerLang {
+    width: 127px;
+    height: 35px;
+    border: 1px solid #DEE1E6;
+    border-radius: 4px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 30px 0 0;
+    padding: 5px 10px;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.footerInnerRight {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.footerInnerRightHeader {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.footerInnerRightText {
+    font-size: 12px;
+    font-weight: 400;
+    margin: 15px 0;
+}
+
+.footerInnerRightInput {
+    position: relative;
+    padding: 0;
+    margin: 15px 0;
+}
+
+.footerInnerRightInput img {
+    position: absolute;
+    left: 12px;
+    top: 14px;
+}
+
+.footerInnerRightInput input {
+    width: 238px;
+    height: 46px;
+    padding: 12px 38px;
+    border: 1px solid #BCC1CA;
+    border-right: none;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+    background-color: transparent;
+}
+
+#footerInnerRightInputButton {
+    border: none;
+    border-radius: 0 8px 8px 0;
+    height: 47px;
+    margin: 0;
+    background-color: #BA5624;
+    width: 125px;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.footerInnerRightBottom {
+    display: flex;
+    gap: 23px;
+    margin: 43px 0;
+}
+
+.footerInnerRightBottom ul {
+    display: flex;
+    gap: 23px;
+}
