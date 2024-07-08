@@ -355,6 +355,7 @@
     }
 
     .individualRelatedProductContainer {
+        width: 176px;
         height: 296px;
     }
 }
