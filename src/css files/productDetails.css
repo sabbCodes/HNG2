@@ -241,8 +241,7 @@
 }
 
 .individualRelatedProductContainer {
-    width: 100%;
-    max-width: 380px;
+    width: 380px;
     height: 615px;
     border-bottom-left-radius: 20px;
     border-bottom-right-radius: 20px;
