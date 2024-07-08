@@ -3,7 +3,6 @@ import Nav from "./Nav";
 import { useParams } from "react-router-dom";
 import productsData from "../data";
 import ArrowFwrd from "../assets/Arrow forward ios 1.png";
-import Laptop from "../assets/headphone.png";
 import Heart from "../assets/Heart 1.png";
 import AddCart from "../assets/Add shopping cart.png";
 import ArrowDown from "../assets/Chevron down large.png";
@@ -12,10 +11,22 @@ import Cart from "../assets/cartButton.png";
 import BestSeller from "../assets/bestSeller.png";
 import Slider from "../assets/Group 6.png";
 import "../css files/productDetails.css";
+import { Link } from "react-router-dom";
+
+function getRandomProducts(products, excludeId, count) {
+    const filteredProducts = products.filter(product => product.id !== excludeId);
+    const shuffledProducts = filteredProducts.sort(() => 0.5 - Math.random());
+    return shuffledProducts.slice(0, count);
+}
 
 function ProductDetails() {
     const { id } = useParams();
-    const products = productsData;
+    const product = productsData.find(product => product.id === parseInt(id));
+    const relatedProducts = getRandomProducts(productsData, product.id, 3);
+
+    if (!product) {
+        return <div>Product not found</div>;
+    }
 
     return (
         <main>
@@ -24,17 +35,17 @@ function ProductDetails() {
                 <div className="produtDetailsSectionNav">
                     <p className="produtDetailsSectionNavShop">Shop</p>
                     <img src={ArrowFwrd} alt="arrow forward" />
-                    <p className="produtDetailsSectionNavProduct">Headphone</p>
+                    <p className="produtDetailsSectionNavProduct">{product.title}</p>
                 </div>
                 <article className="productDetailsMain">
                     <div className="productDetailImg">
                         <img src={Heart} alt="heart icon" id="productDetailHeartImg" />
-                        <img src={Laptop} alt="product image" id="productDetailImgMain" />
+                        <img src={`${process.env.PUBLIC_URL}/${product.image}.png`} alt="product image" id="productDetailImgMain" />
                     </div>
                     <div className="productDetailText">
-                        <h1>Headphone</h1>
+                        <h1>{product.title}</h1>
                         <p className="productDetailTextCode">Code: 78205</p>
-                        <p className="productDetailTextAmnt">$620.73</p>
+                        <p className="productDetailTextAmnt">{product.newPrice}</p>
                         <p className="productDetailTextColor">Color - Crispy Ash</p>
                         <div className="productDetailColorContainer">
                             <div className="productDetailColor1"></div>
@@ -51,7 +62,7 @@ function ProductDetails() {
                                 <img src={AddCart} alt="add cart icon" />
                                 Add to Cart
                             </button>
-                            <button id="checkoutBtn">Checkout</button>
+                            <Link to="/checkout" id="checkoutBtn">Checkout</Link>
                         </div>
                         <div className="productDelivery">
                             <div className="productDeliveryInner">
@@ -77,72 +88,30 @@ function ProductDetails() {
             <section className="relatedProductsSection">
                 <h1>Related Products</h1>
                 <div className="relatedProductsContainer">
-                    <div className="individualRelatedProductContainer" key={id}>
-                        <div className="productImageContainer">
-                            <img className="productImage" src={Laptop} alt="product item" />
-                            <img className="productImageTag" src={BestSeller} alt="best seller tag" />
-                        </div>
-                        <div className="productDetails">
-                            <div className="productTitle">
-                                <h3>Headphone</h3>
-                                <p>product description</p>
+                    {relatedProducts.map(relatedProduct => (
+                        <div className="individualRelatedProductContainer" key={id}>
+                            <div className="productImageContainer">
+                                <img className="productImage" src={`${process.env.PUBLIC_URL}/${relatedProduct.image}.png`} alt="product item" />
+                                <img className="productImageTag" src={BestSeller} alt="best seller tag" />
                             </div>
-                            <div className="productPriceNCart">
-                                <div className="productPrice">
-                                    <h2>$32</h2>
-                                    <p>$43</p>
+                            <div className="productDetails">
+                                <div className="productTitle">
+                                    <h3>{relatedProduct.title}</h3>
+                                    <p>{relatedProduct.description}</p>
                                 </div>
-                                <img src={Cart} alt="cart button" />
-                            </div>
-                            <div className="productTag">
-                                <img src={Rating} alt="product rating" />
-                            </div>
-                        </div>
-                    </div>
-                    <div className="individualRelatedProductContainer" key={id}>
-                        <div className="productImageContainer">
-                            <img className="productImage" src={Laptop} alt="product item" />
-                            <img className="productImageTag" src={BestSeller} alt="best seller tag" />
-                        </div>
-                        <div className="productDetails">
-                            <div className="productTitle">
-                                <h3>Headphone</h3>
-                                <p>product description</p>
-                            </div>
-                            <div className="productPriceNCart">
-                                <div className="productPrice">
-                                    <h2>$32</h2>
-                                    <p>$43</p>
+                                <div className="productPriceNCart">
+                                    <div className="productPrice">
+                                        <h2>{relatedProduct.newPrice}</h2>
+                                        <p>{relatedProduct.oldPrice}</p>
+                                    </div>
+                                    <img src={Cart} alt="cart button" />
                                 </div>
-                                <img src={Cart} alt="cart button" />
-                            </div>
-                            <div className="productTag">
-                                <img src={Rating} alt="product rating" />
-                            </div>
-                        </div>
-                    </div>
-                    <div className="individualRelatedProductContainer" key={id}>
-                        <div className="productImageContainer">
-                            <img className="productImage" src={Laptop} alt="product item" />
-                            <img className="productImageTag" src={BestSeller} alt="best seller tag" />
-                        </div>
-                        <div className="productDetails">
-                            <div className="productTitle">
-                                <h3>Headphone</h3>
-                                <p>product description</p>
-                            </div>
-                            <div className="productPriceNCart">
-                                <div className="productPrice">
-                                    <h2>$32</h2>
-                                    <p>$43</p>
+                                <div className="productTag">
+                                    <img src={Rating} alt="product rating" />
                                 </div>
-                                <img src={Cart} alt="cart button" />
-                            </div>
-                            <div className="productTag">
-                                <img src={Rating} alt="product rating" />
                             </div>
                         </div>
-                    </div>
+                    ))}
                 </div>
                 <img src={Slider} alt="slider" />
             </section>

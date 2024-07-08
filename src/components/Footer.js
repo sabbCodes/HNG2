@@ -26,7 +26,7 @@ function Footer() {
                             <img src={ArrowDown} alt="arrow down" />
                         </div>
                     </div>
-                    <div>
+                    <div className="footerHelp">
                         <h4>Help</h4>
                         <ul>
                             <li>
@@ -58,19 +58,19 @@ function Footer() {
                         </ul>
                     </div>
                 </div>
-                <div className="footerInnerRight">
-                    <div>
-                        <h4 className="footerInnerRightHeader">Subscribe to our Newsletter</h4>
-                        <p className="footerInnerRightText">Keep up-to-date</p>
-                        <div className="footerInnerRightInput">
-                            <img src={Mail} alt="mail icon" />
-                            <input type="text" placeholder="Input your email" />
-                            <button id="footerInnerRightInputButton">Subscribe</button>
-                        </div>
-                        <div>
-                            <img src={Socils} alt="socials" />
-                        </div>
+                <div className="footerSubscribe">
+                    <h4 className="footerInnerRightHeader">Subscribe to our Newsletter</h4>
+                    <p className="footerInnerRightText">Keep up-to-date</p>
+                    <div className="footerInnerRightInput">
+                        <img src={Mail} alt="mail icon" />
+                        <input type="text" placeholder="Input your email" />
+                        <button id="footerInnerRightInputButton">Subscribe</button>
                     </div>
+                    <div>
+                        <img src={Socils} alt="socials" />
+                    </div>
+                </div>
+                <div className="footerInnerRight">
                     <div className="footerInnerRightBottom">
                         <p>© 2024 Timbu store</p>
                         <ul>

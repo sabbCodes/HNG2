@@ -1,6 +1,6 @@
 const productsData = [
     {
-        id: 1,
+        id: 0,
         image: "headphone",
         title: "Headphone",
         description: "Non in adipisicin",
@@ -8,7 +8,7 @@ const productsData = [
         oldPrice: "$42"
     },
     {
-        id: 2,
+        id: 1,
         image: "bluetooth",
         title: "Bluetooth",
         description: "Non in adipisicin",
@@ -16,7 +16,7 @@ const productsData = [
         oldPrice: "$60"
     },
     {
-        id: 3,
+        id: 2,
         image: "airpod",
         title: "Airpod",
         description: "Non in adipisicin",
@@ -24,7 +24,7 @@ const productsData = [
         oldPrice: "$32"
     },
     {
-        id: 4,
+        id: 3,
         image: "laptop",
         title: "Dell Laptop",
         description: "Non in adipisicin",
@@ -32,7 +32,7 @@ const productsData = [
         oldPrice: "$999"
     },
     {
-        id: 5,
+        id: 4,
         image: "watch",
         title: "Smart Watch",
         description: "Non in adipisicin",
@@ -40,7 +40,7 @@ const productsData = [
         oldPrice: "$23"
     },
     {
-        id: 6,
+        id: 5,
         image: "tablet",
         title: "Tablet",
         description: "Non in adipisicin",
@@ -48,7 +48,7 @@ const productsData = [
         oldPrice: "$75"
     },
     {
-        id: 7,
+        id: 6,
         image: "VR",
         title: "VR Headset",
         description: "Non in adipisicin",
@@ -56,7 +56,7 @@ const productsData = [
         oldPrice: "$1,199"
     },
     {
-        id: 8,
+        id: 7,
         image: "phone",
         title: "Mobile Phone",
         description: "Non in adipisicin",
@@ -64,7 +64,7 @@ const productsData = [
         oldPrice: "$99"
     },
     {
-        id: 9,
+        id: 8,
         image: "headphone",
         title: "Headphone",
         description: "Non in adipisicin",

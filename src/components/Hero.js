@@ -14,7 +14,7 @@ function Hero() {
                     <p className="articleBottom">At Gadget Haven, we offer a wide range of high-quality accessories to enhance your tech experience.</p>
                     <button id="buyNowBtn">Buy Now</button>
                 </article>
-                <div>
+                <div className="heroImg">
                     <img src={HeroImg} alt="Fine girl with her headphone" />
                 </div>
             </section>
