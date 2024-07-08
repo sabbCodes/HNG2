@@ -170,28 +170,51 @@
     .topSection {
         flex-direction: row;
         padding: 0;
+        margin: 0;
+        gap: 0;
+    }
+
+    .topSection article {
+        margin-top: 40px;
+    }
+
+    .heroMain {
+        padding-bottom: 0;
+    }
+
+    .articleTop {
+        text-transform: uppercase;
+        font-size: 10px;
     }
 
     .articleMainText {
-        width: 193px;
+        width: 153px;
+        margin: 0;
+        margin: 0 0 5px 0;
     }
 
     .articleBottom {
-        width: 167px;
+        width: 127px;
+        margin: 0;
+        font-size: 10px;
+        line-height: 15px;
     }
 
     .articleMainText h3 {
-        font-size: 24px;
+        font-size: 20px;
+        line-height: 20px;
     }
 
     #buyNowBtn {
         width: 68px;
         height: 26px;
         font-size: 10px;
+        font-weight: 700;
+        margin: 10px 0;
     }
 
     .heroImg {
-        width: 100vw;
+        width: 160vw;
         height: 40vh;
     }
 
@@ -199,7 +222,7 @@
         width: 100%;
         height: 100%;
         object-fit: cover;
-        z-index: 999;
+        margin: 0;
     }
 
     .storeStrength {

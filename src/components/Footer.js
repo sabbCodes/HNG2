@@ -58,7 +58,7 @@ function Footer() {
                         </ul>
                     </div>
                 </div>
-                <div className="footerSubscribe">
+                <div className="footerSubscribe desktopHidden">
                     <h4 className="footerInnerRightHeader">Subscribe to our Newsletter</h4>
                     <p className="footerInnerRightText">Keep up-to-date</p>
                     <div className="footerInnerRightInput">
@@ -71,6 +71,18 @@ function Footer() {
                     </div>
                 </div>
                 <div className="footerInnerRight">
+                    <div className="footerSubscribe mobileHidden">
+                        <h4 className="footerInnerRightHeader">Subscribe to our Newsletter</h4>
+                        <p className="footerInnerRightText">Keep up-to-date</p>
+                        <div className="footerInnerRightInput">
+                            <img src={Mail} alt="mail icon" />
+                            <input type="text" placeholder="Input your email" />
+                            <button id="footerInnerRightInputButton">Subscribe</button>
+                        </div>
+                        <div>
+                            <img src={Socils} alt="socials" />
+                        </div>
+                    </div>
                     <div className="footerInnerRightBottom">
                         <p>© 2024 Timbu store</p>
                         <ul>

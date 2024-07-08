@@ -11,6 +11,15 @@ nav {
   padding: 0 80px;
 }
 
+.timbuLogo {
+  width: 104px;
+  height: 104px;
+}
+
+.timbuLogo img {
+  width: 100%;
+}
+
 nav ul {
   list-style-type: none;
   display: flex;
@@ -90,6 +99,15 @@ nav ul {
   nav {
     max-width: 430Px;
     height: 64px;
+  }
+
+  .timbuLogo {
+    width: 64px;
+    height: 64px;
+  }
+
+  .timbuLogo img {
+    width: 100%;
   }
 
   #burgerIcon{

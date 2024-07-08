@@ -1,6 +1,5 @@
 .checkoutSectionWrapper {
     margin: 94px auto;
-    width: 760px;
     max-width: 1440px;
     padding: 0 80px;
 }
@@ -382,5 +381,43 @@
     .deliveryDetailsDate2 {
         width: 224px;
         height: 102px;
+    }
+
+    .orderSummaryMainInner1 {
+        width: 160px;
+    }
+
+    .orderSummaryMainInner2,
+    .orderSummaryMainPrice2 {
+        width: 64px;
+    }
+
+    .orderSummaryMainInner3,
+    .orderSummaryMainPrice3 {
+        width: 43px;
+    }
+
+    .orderSummaryMainInner4,
+    .orderSummaryMainPrice4 {
+        width: 90px;
+    }
+
+    .orderSummaryMainInner1,
+    .orderSummaryMainInner2,
+    .orderSummaryMainInner3,
+    .orderSummaryMainInner4 {
+        padding: 9px 0;
+    }
+
+    .orderSummaryMainInnerNmae {
+        height: 60px;
+        width: 204px;
+        padding: 0;
+        margin: 0;
+    }
+
+    .orderSummaryMainInnerNmaeImg {
+        width: 70px;
+        height: 60px;
     }
 }

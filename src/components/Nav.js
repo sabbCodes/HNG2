@@ -1,4 +1,4 @@
-import Logo from "../assets/logo.png";
+import Logo from "../assets/logo.svg";
 import Search from "../assets/Search.png";
 import Frame from "../assets/Frame.png";
 import Cart from "../assets/Shopping cart.png";
@@ -10,7 +10,7 @@ function Nav() {
     return (
         <section className="navWrapper">
             <nav>
-                <Link to="/">
+                <Link to="/" className="timbuLogo">
                     <img src={Logo} alt="Our Logo" />
                 </Link>
                 <ul>
