@@ -354,13 +354,26 @@ a {
         padding: 3px 10px;
     }
 
+    .productsMain {
+        width: 92vw;
+        margin: 00 5vw;
+        padding: 20px 0;
+    }
+
+    .productsContainer {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+
     .productsContainerBottom {
-        width: 385px;
+        margin: 0;
+        padding: 0;
     }
 
     .individualProductContainer {
-        width: 176px;
-        height: 296px;
+        width: 43vw;
+        height: 74vw;
     }
 
     .productTitle p {

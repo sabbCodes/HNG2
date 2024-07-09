@@ -1,9 +1,9 @@
 import Footer from "./Footer";
 import Nav from "./Nav";
 import Cart from "../assets/Shopping cart 3.png";
-import CheckoutBt from "../assets/checkoutBt.png";
-import CheckoutAirpod from "../assets/checkoutAirpod.png";
-import CheckoutHeadphone from "../assets/checkoutHeadphone.png";
+import CheckoutBt from "../assets/chkoutBt.svg";
+import CheckoutAirpod from "../assets/chckoutArpd.svg";
+import CheckoutHeadphone from "../assets/chckoutHdpn.svg";
 import Delete from "../assets/create.png";
 import Delivery from "../assets/Delivery 1.png";
 import Checked from "../assets/C check 1.png";

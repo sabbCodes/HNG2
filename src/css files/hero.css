@@ -85,7 +85,6 @@
 
 .storeStrengthInner p {
     font-size: 12px;
-    font-weight: 400;
 }
 
 .subHeroMain {
@@ -151,8 +150,12 @@
 
     .storeStrength {
         width: 22%;
-        padding: 2px;
-        gap: 6px;
+        padding: 0 2px;
+        gap: 4px;
+    }
+
+    .storeStrength img {
+        width: 5vw;
     }
 
     .storeStrengthInner h5 {
@@ -179,7 +182,7 @@
     }
 
     .heroMain {
-        padding-bottom: 0;
+        padding: 0 7px 0 16px;
     }
 
     .articleTop {
@@ -188,7 +191,7 @@
     }
 
     .articleMainText {
-        width: 153px;
+        width: 38vw;
         margin: 0;
         margin: 0 0 5px 0;
     }
@@ -214,20 +217,22 @@
     }
 
     .heroImg {
-        width: 160vw;
+        width: 180vw;
         height: 40vh;
+        margin-right: 8px;
     }
 
     .heroImg img {
-        width: 100%;
+        width: 113%;
         height: 100%;
         object-fit: cover;
         margin: 0;
     }
 
     .storeStrength {
-        width: 93px;
+        width: 22vw;
         justify-content: center;
+        gap: 3px;
     }
 
     .storeStrengthInner h5 {
@@ -237,6 +242,5 @@
 
     .storeStrengthInner p {
         font-size: 6px;
-        font-weight: 400;
     }
 }
