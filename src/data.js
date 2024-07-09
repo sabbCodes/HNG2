@@ -3,7 +3,7 @@ const productsData = [
         id: 0,
         image: "headphone",
         title: "Headphone",
-        description: "Non in adipisicin",
+        description: "Bluetooth powered",
         newPrice: "$32",
         oldPrice: "$42"
     },
@@ -11,7 +11,7 @@ const productsData = [
         id: 1,
         image: "bluetooth",
         title: "Bluetooth",
-        description: "Non in adipisicin",
+        description: "Bluetooth powered",
         newPrice: "$49",
         oldPrice: "$60"
     },
@@ -19,7 +19,7 @@ const productsData = [
         id: 2,
         image: "airpod",
         title: "Airpod",
-        description: "Non in adipisicin",
+        description: "Bluetooth powered",
         newPrice: "$18",
         oldPrice: "$32"
     },
@@ -27,7 +27,7 @@ const productsData = [
         id: 3,
         image: "laptop",
         title: "Dell Laptop",
-        description: "Non in adipisicin",
+        description: "DELL model",
         newPrice: "$740",
         oldPrice: "$999"
     },
@@ -35,7 +35,7 @@ const productsData = [
         id: 4,
         image: "watch",
         title: "Smart Watch",
-        description: "Non in adipisicin",
+        description: "Touch screen",
         newPrice: "$12",
         oldPrice: "$23"
     },
@@ -43,7 +43,7 @@ const productsData = [
         id: 5,
         image: "tablet",
         title: "Tablet",
-        description: "Non in adipisicin",
+        description: "SAMSUNG",
         newPrice: "$54",
         oldPrice: "$75"
     },
@@ -51,15 +51,15 @@ const productsData = [
         id: 6,
         image: "VR",
         title: "VR Headset",
-        description: "Non in adipisicin",
+        description: "Bluetooth powered",
         newPrice: "$849",
         oldPrice: "$1,199"
     },
     {
         id: 7,
         image: "phone",
-        title: "Mobile Phone",
-        description: "Non in adipisicin",
+        title: "Smart Phone",
+        description: "TECNO",
         newPrice: "$68",
         oldPrice: "$99"
     },
@@ -67,7 +67,7 @@ const productsData = [
         id: 8,
         image: "headphone",
         title: "Headphone",
-        description: "Non in adipisicin",
+        description: "Bluetooth powered",
         newPrice: "$32",
         oldPrice: "$42"
     }

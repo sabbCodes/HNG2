@@ -40,7 +40,7 @@ function ProductDetails() {
                 <article className="productDetailsMain">
                     <div className="productDetailImg">
                         <img src={Heart} alt="heart icon" id="productDetailHeartImg" />
-                        <img src={`${process.env.PUBLIC_URL}/${product.image}.png`} alt="product image" id="productDetailImgMain" />
+                        <img src={`${process.env.PUBLIC_URL}/${product.image}.svg`} alt="product image" id="productDetailImgMain" />
                     </div>
                     <div className="productDetailText">
                         <h1>{product.title}</h1>
@@ -91,7 +91,7 @@ function ProductDetails() {
                     {relatedProducts.map(relatedProduct => (
                         <div className="individualRelatedProductContainer" key={id}>
                             <div className="productImageContainer">
-                                <img className="productImage" src={`${process.env.PUBLIC_URL}/${relatedProduct.image}.png`} alt="product item" />
+                                <img className="productImage" src={`${process.env.PUBLIC_URL}/${relatedProduct.image}.svg`} alt="product item" />
                                 <img className="productImageTag" src={BestSeller} alt="best seller tag" />
                             </div>
                             <div className="productDetails">

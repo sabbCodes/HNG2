@@ -94,7 +94,7 @@
 .productsAsideButtons {
     display: flex;
     gap: 10px;
-    margin-top: 20px;
+    margin: 430px 16px 0 91px;
 }
 
 #resetBtn,
@@ -162,8 +162,7 @@
 }
 
 .productsContainerTopRight {
-    width: 100%;
-    max-width: 400px;
+    gap: 30px;
     height: 42px;
 }
 

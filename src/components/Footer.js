@@ -1,5 +1,5 @@
 import "../css files/footer.css";
-import ArrowDown from "../assets/Chevron down large.png";
+import ArrowDown from "../assets/Chevron down large.svg";
 import Mail from "../assets/Mail.png";
 import Socils from "../assets/Frame 30.png";
 

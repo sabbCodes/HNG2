@@ -134,7 +134,7 @@ function Products() {
                     {products.map( product => (
                         <Link to={`/${product.id}`} className="individualProductContainer" key={product.id}>
                             <div className="productImageContainer">
-                                <img className="productImage" src={`${process.env.PUBLIC_URL}/${product.image}.png`} alt="product item" />
+                                <img className="productImage" src={`${process.env.PUBLIC_URL}/${product.image}.svg`} alt="product item" />
                                 <img className="productImageTag" src={BestSeller} alt="best seller tag" />
                             </div>
                             <div className="productDetails">
