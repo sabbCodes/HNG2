@@ -1,16 +1,15 @@
 .productsMain {
     display: flex;
-    gap: 35px;
-    width: 100%;
+    gap: 2.7vw;
+    width: 88vw;
     max-width: 1440px;
     height: auto;
     margin: 0 auto;
-    padding: 80px;
+    padding: 80px 0;
 }
 
 .productsAside {
-    width: 100%;
-    max-width: 403px;
+    width: 28vw;
     height: 1196px;
     background-color: #EFF0F3;
 }
@@ -119,8 +118,7 @@
 }
 
 .productsContainer {
-    width: 100%;
-    max-width: 893px;
+    width: 62vw;
     height: auto;
     display: flex;
     flex-direction: column;
@@ -132,10 +130,8 @@
     justify-content: space-between;
     align-items: center;
     width: 100%;
-    height: 100%;
     padding: 8px 25px;
     background-color: rgba(222, 225, 230, .5);
-    flex-wrap: wrap;
 }
 
 .productsContainerTopLeft,
@@ -202,12 +198,12 @@
     margin: 0 auto;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    row-gap: 70px;
-    column-gap: 32px;
+    row-gap: 4.9vw;
+    column-gap: 2.8vw;
 }
 
 .individualProductContainer {
-    width: 268px;
+    width: 18.6vw;
     height: 475px;
     border-bottom-left-radius: 20px;
     border-bottom-right-radius: 20px;

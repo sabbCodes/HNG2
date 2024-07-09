@@ -6,9 +6,8 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  max-width: 1440px;
+  width: 88vw;
   margin: auto;
-  padding: 0 80px;
 }
 
 .timbuLogo {
@@ -97,8 +96,9 @@ nav ul {
 
 @media (max-width: 480px) {
   nav {
-    max-width: 430Px;
+    width: 90vw;
     height: 64px;
+    padding: 0;
   }
 
   .timbuLogo {
