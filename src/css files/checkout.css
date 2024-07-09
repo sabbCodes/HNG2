@@ -1,7 +1,6 @@
 .checkoutSectionWrapper {
     margin: 94px auto;
-    max-width: 1440px;
-    padding: 0 80px;
+    width: 88vw;
 }
 
 .chectoutSectionInner {
@@ -139,6 +138,9 @@
 
 .deliveryDetailsOperator {
     margin: 20px 0;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
 }
 
 .deliveryDetailsDate {
@@ -230,7 +232,7 @@
 }
 
 .checkoutAside {
-    width: 340px;
+    width: 24vw;
     height: 570px;
     padding: 28px;
     background-color: #FAFAFB;
@@ -310,7 +312,6 @@
 
 .checkoutAsideVoucherOff p {
     font-size: 12px;
-    font-weight: 400;
     text-align: center;
 }
 
