@@ -26,56 +26,56 @@ function Products() {
                 </div>
                 <div className="productsAsideInner">
                     <div className="productAsideInnerTop">
-                        <h5>Condition 1</h5>
+                        <h5>Category</h5>
                         <img src={ArrowUp} alt="arrow up" />
                     </div>
                     <div className="productAsideInnerBottom">
                         <div className="productAsideInnerBottomInput">
                             <label>
                                 <input type="checkbox" />
-                                Option 1
+                                Best Selling
                             </label>
                             <label>
                                 <input type="checkbox" />
-                                Option 2
+                                Cheapest Selling
                             </label>
                         </div>
                         <div className="productAsideInnerBottomInput">
                             <label>
                                 <input type="checkbox" />
-                                Option 3
+                                Latest Selling
                             </label>
                             <label>
                                 <input type="checkbox" />
-                                Option 4
+                                Most Sold
                             </label>
                         </div>
                     </div>
                 </div>
                 <div className="productsAsideInner">
                     <div className="productAsideInnerTop">
-                        <h5>Condition 2</h5>
+                        <h5>Color</h5>
                         <img src={ArrowUp} alt="arrow up" />
                     </div>
                     <div className="productAsideInnerBottom">
                         <div className="productAsideInnerBottomInput">
                             <label>
                                 <input type="checkbox" />
-                                Option 1
+                                Blue
                             </label>
                             <label>
                                 <input type="checkbox" />
-                                Option 2
+                                White
                             </label>
                         </div>
                         <div className="productAsideInnerBottomInput">
                             <label>
                                 <input type="checkbox" />
-                                Option 3
+                                Brown
                             </label>
                             <label>
                                 <input type="checkbox" />
-                                Option 4
+                                Black
                             </label>
                         </div>
                     </div>
